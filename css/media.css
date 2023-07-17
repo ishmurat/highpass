@@ -41,7 +41,7 @@
   .hero__ivent {
     max-width: 466px;
     max-height: 623px;
-    background-image: url("/images/Group60_1024.jpg");
+    background-image: url("../images/Group60_1024.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,13 +128,13 @@
     grid-column: span 4;
   }
   .projects__item4 {
-    background-image: url("/images/project4_1024.jpg");
+    background-image: url("../images/project4_1024.jpg");
     max-width: 590px;
     grid-column: span 5;
     grid-row: span 1;
   }
   .projects__item5 {
-    background-image: url("/images/project7_1024.jpg");
+    background-image: url("../images/project7_1024.jpg");
     max-width: 590px;
     grid-column: span 5;
     grid-column-start: 4;
@@ -289,7 +289,7 @@
     padding-right: 28px;
   }
   .hero__ivent {
-    background-image: url("/images/Group60_768.jpg");
+    background-image: url("../images/Group60_768.jpg");
   }
   .ivent {
     padding-left: 27px;
@@ -357,7 +357,7 @@
     min-width: none;
   }
   .projects__item4 {
-    background-image: url("/images/project4_768.jpg");
+    background-image: url("../images/project4_768.jpg");
     max-width: 714px;
     grid-column: span 6;
     grid-row: span 1;
@@ -368,7 +368,7 @@
     grid-row: span 1;
   }
   .projects__item5 {
-    background-image: url("/images/project7_768.jpg");
+    background-image: url("../images/project7_768.jpg");
     max-width: 714px;
     grid-column: span 6;
     grid-row: span 1;
@@ -602,11 +602,11 @@
     margin-bottom: 11px;
   }
   .projects__item4 {
-    background-image: url("/images/project4_320.jpg");
+    background-image: url("../images/project4_320.jpg");
     background-repeat: no-repeat;
   }
   .projects__item5 {
-    background-image: url("/images/project7_320.jpg");
+    background-image: url("../images/project7_320.jpg");
     background-repeat: no-repeat;
   }
   .project__tag {
@@ -713,7 +713,7 @@
   .hero__ivent {
     max-width: 278px;
     min-height: 422px;
-    background-image: url("/images/Group60_320.jpg");
+    background-image: url("../images/Group60_320.jpg");
     grid-column: span 12;
     grid-row: span 1;
   }
@@ -842,11 +842,11 @@
     margin-bottom: 11px;
   }
   .projects__item4 {
-    background-image: url("/images/project4_320.jpg");
+    background-image: url("../images/project4_320.jpg");
     background-repeat: no-repeat;
   }
   .projects__item5 {
-    background-image: url("/images/project7_320.jpg");
+    background-image: url("../images/project7_320.jpg");
     background-repeat: no-repeat;
   }
   .project__tag {
