@@ -191,7 +191,7 @@ body {
 
 .hero__ivent {
   max-width: 630px;
-  background-image: url("images/Group60.jpg");
+  background-image: url("../images/Group60.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -463,7 +463,7 @@ body {
 }
 
 .projects__item4 {
-  background-image: url("images/project4.jpg");
+  background-image: url("../images/project4.jpg");
   background-size: cover;
   max-width: 630px;
   grid-column: span 6;
@@ -471,7 +471,7 @@ body {
 }
 
 .projects__item5 {
-  background-image: url("images/project5.jpg");
+  background-image: url("../images/project5.jpg");
   background-size: cover;
   max-width: 630px;
   grid-column: span 6;
