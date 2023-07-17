@@ -1,0 +1,691 @@
+@import 'normalize.css';
+@import 'media.css';
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+figure {
+  margin: 0;
+}
+
+.h1-title {
+  display: none;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  bottom: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header__container {
+  background-color: #202020;
+  height: 80px;
+  margin-bottom: 41px;
+}
+
+.nav__wrapper {
+  max-width: 1290px;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 140px;
+}
+
+.header__nav {
+  margin-right: 193px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  font-family: "TTFirsNeue";
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFF;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 79px;
+}
+
+.header__nav-mobile {
+  display: none;
+  background-color: #4A4A4A;
+  max-width: 768px;
+}
+
+.nav__list-mobile {
+  max-width: 714px;
+  height: 45px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__container {
+  max-width: 1290px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 630px);
+  gap: 30px;
+  margin-bottom: 67px;
+}
+
+.hero__ivent {
+  max-width: 630px;
+  max-height: 630px;
+  background-image: url("/images/Group60.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
+.ivent {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 59px;
+  position: relative;
+}
+
+.ivent__tag {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 8px 15px;
+  background-color: #202020;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFF;
+}
+
+.ivent__text {
+  font-family: "Roboto";
+  line-height: 19px;
+  color: #FFF;
+  margin-bottom: 3px;
+}
+
+.ivent__title {
+  max-width: 430px;
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 104%;
+  color: #FFF;
+  margin-bottom: 19px;
+}
+
+.ivent__button {
+  width: 159px;
+  height: 50px;
+  background-color: #FF6E30;
+  outline: none;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFF;
+  margin-bottom: 60px;
+}
+
+.hero__works {
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
+.works__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 30px;
+}
+
+.works__text {
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 104%;
+  margin-bottom: 18px;
+}
+
+.item1 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.about__container {
+  background-color: #202020;
+  margin-bottom: 68px;
+}
+
+.about__wrapper {
+  max-width: 1290px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.about__title {
+  max-width: 1290px;
+  margin: 0 auto;
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 4px;
+}
+
+.about__description {
+  font-family: "Roboto";
+  color: #CACACA;
+  line-height: 28px;
+  max-width: 630px;
+  font-size: 12.4px;
+  padding-bottom: 70px;
+  padding-top: 2px;
+}
+
+.about__img {
+  margin-bottom: 17px;
+  max-width: 630px;
+}
+
+.subscribe__title {
+  font-family: "TTFirsNeue";
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 22px;
+  color: #FFF;
+  margin-bottom: 16px;
+}
+
+.subscribe__input-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe__input {
+  min-width: 474px;
+  height: 50px;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #CACACA;
+  background-color: #4A4A4A;
+}
+
+.subscribe__input::-moz-placeholder {
+  padding-left: 22px;
+}
+
+.subscribe__input::placeholder {
+  padding-left: 22px;
+}
+
+.subscribe__button {
+  width: 126px;
+  height: 50px;
+  background-color: #FF6E30;
+  outline: none;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFF;
+}
+
+.projects__container {
+  max-width: 1290px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.projects__title {
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 11px;
+}
+
+.projects__list {
+  max-width: 1290px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  grid-auto-flow: row;
+  gap: 30px;
+}
+
+.projects__item {
+  position: relative;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: span 2;
+}
+
+.project__tag {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 7px 14px;
+  background-color: #202020;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFF;
+}
+
+.projects__item4 {
+  background-image: url("/images/project4.jpg");
+  max-width: 630px;
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
+.projects__item5 {
+  background-image: url("/images/project5.jpg");
+  max-width: 630px;
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
+.projects__item6, .projects__item7 {
+  max-width: 300px;
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.project__img {
+  margin-bottom: 15px;
+}
+
+.project__text {
+  font-family: "Roboto";
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+.project__text1--1024, .project__text2--1024, .project__text3--1024 {
+  display: none;
+}
+
+.date {
+  font-size: 13px;
+  line-height: 15px;
+  color: #999999;
+}
+
+.bigcard__wrapper {
+  max-width: 324px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 23px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.bigcard__date-wrap {
+  margin-bottom: 5px;
+}
+
+.bigcard__title {
+  max-width: 260px;
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFF;
+  margin-bottom: 6px;
+}
+
+.bigcard__description {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFF;
+}
+
+.bigcard__button {
+  position: absolute;
+  bottom: 30px;
+  width: 121px;
+  height: 50px;
+  background-color: inherit;
+  outline: none;
+  border: 3px solid #FF6E30;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFF;
+}
+
+.contacts {
+  margin-bottom: 78px;
+}
+
+.contacts__container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.contacts__wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 460px);
+  grid-auto-flow: row;
+  gap: 30px;
+}
+
+.contacts__title {
+  font-family: "TTFirsNeue";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 13px;
+}
+
+.contacts__order {
+  max-width: 410px;
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.order__title {
+  font-family: "TTFirsNeue";
+  color: #202020;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.order__text {
+  font-family: "Roboto";
+  font-size: 12.3px;
+  line-height: 20px;
+  color: #999999;
+  margin-bottom: 12px;
+}
+
+.map-side {
+  position: relative;
+  grid-column: span 8;
+  grid-row: span 1;
+}
+
+.map-side__card {
+  min-width: 850px;
+  min-height: 470px;
+  padding-top: 12px;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldsetarea {
+  min-width: 410px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #e9e9e9;
+}
+
+.fieldsetarea::-moz-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 25px;
+  padding-left: 23px;
+  color: #999999;
+}
+
+.fieldsetarea::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 25px;
+  padding-left: 23px;
+  color: #999999;
+}
+
+.fieldset__comment {
+  padding-bottom: 100px;
+  height: 150px;
+}
+
+.fieldset__comment::-moz-placeholder {
+  padding-bottom: 100px;
+}
+
+.fieldset__comment::placeholder {
+  padding-bottom: 100px;
+}
+
+.fieldset-submit {
+  width: 126px;
+  height: 50px;
+  background-color: #FF6E30;
+  outline: none;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFF;
+}
+
+.popup {
+  position: absolute;
+  top: 10px;
+  padding-left: 60px;
+  min-width: 410px;
+  max-height: 470px;
+  background-color: rgba(32, 32, 32, 0.85);
+  padding-bottom: 151px;
+}
+
+.popup__title {
+  padding-top: 176px;
+  font-family: "TTFirsNeue";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #FFF;
+  margin-bottom: 3px;
+}
+
+.popup__text {
+  max-width: 300px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 28px;
+  color: #CACACA;
+  margin-bottom: 1px;
+}
+
+.popup__number {
+  display: flex;
+  align-items: center;
+}
+
+.popup__phonenumber {
+  font-family: "TTFirsNeue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FF6E30;
+}
+
+.popup__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.footer__container {
+  margin-bottom: 100px;
+  background-color: #202020;
+  height: 106px;
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+  max-width: 1290px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 66px;
+  grid-auto-flow: row;
+  gap: 30px;
+  padding-top: 25px;
+}
+
+.footer__logo {
+  min-width: 410px;
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.footer__text {
+  grid-column: span 6;
+  grid-row: span 1;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  max-width: 375px;
+  color: #CACACA;
+}
+
+.footer__socials {
+  min-width: 190px;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.footer__logo-text {
+  font-family: "TTFirsNeue";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e9e9e9;
+}
+
+.footer__socials-text {
+  padding-left: 30px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15.9px;
+  line-height: 22px;
+  color: #CACACA;
+  margin-bottom: 7px;
+}
+
+.footer__icons {
+  padding-left: 70px;
+}
+
+.footer__icon:not(:last-child) {
+  margin-right: 15px;
+}/*# sourceMappingURL=main.css.map */

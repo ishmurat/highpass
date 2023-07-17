@@ -1,0 +1,422 @@
+@media (max-width: 1300px) {
+  .title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .container {
+    max-width: 1024px;
+  }
+  .nav__wrapper {
+    max-width: 963px;
+  }
+  .header__logo {
+    margin-right: 82px;
+    padding-top: 5px;
+  }
+  .header__search {
+    padding-top: 5px;
+    padding-left: 2px;
+  }
+  .nav__item:not(:last-child) {
+    margin-right: 33px;
+  }
+  .header__container {
+    margin-bottom: 34px;
+  }
+  .header__nav {
+    margin-right: 131px;
+  }
+  .header__logo svg {
+    width: 166px;
+  }
+  .hero__container {
+    max-width: 963px;
+    grid-template-rows: repeat(1, 623px);
+  }
+  .hero__ivent {
+    max-width: 466px;
+    max-height: 623px;
+    background-image: url("/images/Group60_1024.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+  .ivent {
+    padding-left: 30px;
+  }
+  .ivent__text {
+    margin-bottom: 10px;
+  }
+  .ivent__title {
+    font-size: 34px;
+    line-height: 105%;
+  }
+  .ivent__button {
+    margin-bottom: 30px;
+  }
+  .works__text {
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 24px;
+  }
+  .works__list {
+    grid-template-rows: repeat(2, 332px);
+  }
+  .works__img1 {
+    height: 332px;
+  }
+  .works__img3 {
+    max-width: 100%;
+  }
+  .about__title {
+    max-width: 963px;
+  }
+  .about__wrapper {
+    max-width: 963px;
+  }
+  .about__description {
+    margin-bottom: 19px;
+    font-size: 16px;
+  }
+  .about__img {
+    margin-bottom: 18px;
+  }
+  .subscribe__input {
+    min-width: 342px;
+  }
+  .subscribe__input-wrap {
+    display: block;
+  }
+  .subscribe__input {
+    margin-bottom: 19px;
+  }
+  .subscribe__title {
+    margin-left: -2px;
+    font-size: 24px;
+    margin-bottom: 17px;
+  }
+  .projects__container {
+    max-width: 962px;
+  }
+  .project__tag {
+    top: 6px;
+    right: 8px;
+  }
+  .project__text {
+    margin-bottom: 19px;
+  }
+  .project__text1, .project__text2, .project__text3 {
+    display: none;
+  }
+  .project__text1--1024, .project__text2--1024, .project__text3--1024 {
+    display: block;
+  }
+  .projects__list {
+    max-width: 962px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 285px);
+    grid-auto-flow: row dense;
+    gap: 24px 30px;
+  }
+  .projects__item1, .projects__item2, .projects__item3 {
+    height: 285px;
+  }
+  .projects__item1, .projects__item2 {
+    grid-column: span 2;
+  }
+  .projects__item3 {
+    grid-column: span 4;
+    min-width: 466px;
+  }
+  .projects__item4 {
+    background-image: url("/images/project4_1024.jpg");
+    max-width: 590px;
+    grid-column: span 5;
+    grid-row: span 1;
+  }
+  .projects__item5 {
+    background-image: url("/images/project7_1024.jpg");
+    max-width: 590px;
+    grid-column: span 5;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row: span 1;
+  }
+  .projects__item6, .projects__item7 {
+    max-width: 342px;
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  .projects__item4, .projects__item5, .projects__item6, .projects__item7 {
+    height: 307px;
+  }
+  .bigcard__wrapper {
+    padding-top: 32px;
+  }
+  .bigcard__button_1024 {
+    bottom: 22px;
+  }
+  .contacts {
+    margin-bottom: 76px;
+  }
+  .contacts__container {
+    max-width: 962px;
+  }
+  .contacts__wrapper {
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-flow: row;
+    gap: 30px;
+  }
+  .map-side {
+    position: relative;
+    grid-column: span 5;
+    grid-row: span 1;
+  }
+  .contacts__order {
+    max-width: 342px;
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  .map-side__card {
+    min-width: 590px;
+    height: 312px;
+  }
+  .fieldsetarea {
+    min-width: 342px;
+  }
+  .order__title {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .order__text {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 11px;
+  }
+  .popup {
+    position: absolute;
+    top: 312px;
+    padding-left: 30px;
+    min-width: 590px;
+    height: 157px;
+    background-color: rgba(32, 32, 32, 0.85);
+    padding-top: 0;
+  }
+  .popup__title {
+    padding-top: 24px;
+    margin-bottom: 5px;
+  }
+  .popup__number {
+    position: absolute;
+    top: 110px;
+    left: 178px;
+  }
+  .footer__wrapper {
+    max-width: 962px;
+  }
+  .footer__logo svg {
+    width: 166px;
+  }
+  .footer__logo {
+    padding-top: 2px;
+    min-width: 343px;
+    grid-column: span 4;
+  }
+  .footer__text {
+    grid-column: span 6;
+    min-width: 380px;
+    padding-right: 10px;
+  }
+  .footer__icons {
+    padding-left: 60px;
+  }
+  .footer__socials-text {
+    padding-left: 20px;
+    min-width: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .header__container {
+    margin-bottom: 81px;
+  }
+  .nav__wrapper {
+    max-width: 714px;
+    justify-content: space-between;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__nav-mobile {
+    display: block;
+  }
+  .nav__item-mobile {
+    color: white;
+  }
+  .hero__container {
+    max-width: 714px;
+    grid-template-rows: 452px;
+  }
+  .hero__ivent {
+    max-height: 452px;
+    background-image: url("/images/Group60_768.jpg");
+  }
+  .ivent {
+    padding-left: 29px;
+  }
+  .ivent__text {
+    margin-bottom: 15px;
+  }
+  .ivent__title {
+    font-size: 34px;
+    line-height: 90%;
+    margin-bottom: 22px;
+  }
+  .works__list {
+    grid-template-rows: 228px;
+  }
+  .works__text {
+    font-size: 22px;
+    line-height: 95%;
+    margin-bottom: 20px;
+  }
+  .about__wrapper {
+    max-width: 714px;
+  }
+  .about__title {
+    max-width: 714px;
+  }
+  .about__description {
+    min-width: 342px;
+    padding-bottom: 43px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .subscribe__title {
+    font-size: 24px;
+    margin-left: 0;
+  }
+  .subscribe__input {
+    margin-bottom: 21px;
+  }
+  .projects__container {
+    max-width: 714px;
+  }
+  .project__tag {
+    top: 7px;
+    right: 7px;
+  }
+  .projects__list {
+    max-width: 714px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 295px);
+    gap: 30px 30px;
+  }
+  .projects__item1, .projects__item2, .projects__item3 {
+    grid-column: span 2;
+    min-width: 218px;
+    height: 300px;
+  }
+  .projects__item4 {
+    background-image: url("/images/project4_768.jpg");
+    max-width: 714px;
+    height: 300px;
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+  .projects__item5 {
+    height: 300px;
+  }
+  .projects__item6, .projects__item7 {
+    max-width: 342px;
+    height: 302px;
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  .projects__item5 {
+    background-image: url("/images/project7_768.jpg");
+    max-width: 714px;
+    grid-column: span 6;
+    grid-row: span 1;
+    order: 6;
+  }
+  .project__text {
+    margin-bottom: 13px;
+  }
+  .project__text3 {
+    margin-bottom: 34px;
+  }
+  .project__text1, .project__text2, .project__text3 {
+    display: block;
+  }
+  .project__text1--1024, .project__text2--1024, .project__text3--1024 {
+    display: none;
+  }
+  .project__text6, .project__text7 {
+    margin-bottom: 20px;
+  }
+  .bigcard__title {
+    margin-bottom: 5px;
+  }
+  .bigcard__button {
+    bottom: 28px;
+  }
+  .contacts {
+    margin-bottom: 68px;
+  }
+  .contacts__container {
+    max-width: 714px;
+  }
+  .contacts__wrapper {
+    gap: 33px 30px;
+  }
+  .map-side {
+    grid-column: span 8;
+  }
+  .map-side__card {
+    min-width: 714px;
+    height: 460px;
+  }
+  .popup {
+    min-width: 714px;
+  }
+  .popup__title {
+    padding-top: 25px;
+  }
+  .popup__text {
+    max-width: 436px;
+    line-height: 29px;
+  }
+  .popup__number {
+    position: unset;
+  }
+  .contacts__order {
+    max-width: 466px;
+    grid-column: span 6;
+    grid-row: span 1;
+  }
+  .contacts__title {
+    margin-bottom: 11px;
+  }
+  .order__text {
+    margin-bottom: 13px;
+  }
+  .footer__wrapper {
+    max-width: 714px;
+  }
+  .footer__logo {
+    min-width: 504px;
+  }
+  .footer__logo svg {
+    margin-bottom: -1px;
+  }
+  .footer__text {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */
